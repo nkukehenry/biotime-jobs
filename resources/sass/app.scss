@@ -1,0 +1,51 @@
+
+@import "~select2/dist/css/select2.css";
+@import '~jquery-ui/themes/base/autocomplete.css';
+@import '~jquery-ui/themes/base/datepicker.css';
+
+.table{
+    border-top: none!important;
+
+ th{
+    padding: 8px!important;
+    text-align:bold;
+ }
+ td{
+    padding: 5px!important;
+ }
+}
+.card{
+    border-radius: 2px!important;
+    box-shadow: 1px 1px 2px 1px rgb(209, 209, 209);
+}
+legend{
+    border-bottom: 1px rgb(179, 179, 179) solid;
+    color:grey;
+    font-size: 14pt;
+}
+.select,select{
+    min-width: 100%!important;
+}
+
+.mr-2{
+    margin-right:10px;
+}
+
+#ui-datepicker-div,.ui-datepicker,.ui-widget,.ui-widget-content{
+   background-color:#fff!important;
+}
+.ui-autocomplete{
+    
+    max-height:300px;
+    overflow-y:scroll;
+    box-shadow:1px 1px 2px 1px grey;
+    
+    li{
+
+     list-style:none;
+
+    }
+}
+.modal{
+    background-color:transparent!important;
+}
